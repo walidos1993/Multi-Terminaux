@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Foogle",
+  "short_name": "Foogle",
+  "version": "io.cordova.hellocordova",
+  "description": "Une application qui aide à trouver un produit",
+  "author": "Foogle",
+  "icons": [],
+  "start_url": "index.html"
+}
