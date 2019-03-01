@@ -7,9 +7,9 @@ BuilderIdent ProcessPCH\ /Users/walidos195/Projectweb/Projets/multiterminaux/Cor
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/SDKSettings.plist 0 1509139769 919 33204
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/CoreServices/SystemVersion.plist 0 1510295428 490 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include/module.modulemap 0 1510078338 3867 33188
-InputFile    /Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/ios/Foogle/Foogle-Prefix.pch 0 1551372751 955 33188
+InputFile    /Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/ios/Foogle/Foogle-Prefix.pch 0 1551376493 955 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/SDKSettings.plist 0 1509139769 919 33204
-InputFile    /Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/ios/Foogle/Foogle-Prefix.pch 0 1551372751 955 33188
+InputFile    /Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/ios/Foogle/Foogle-Prefix.pch 0 1551376493 955 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap 0 1509151955 145 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include/module.modulemap 0 1510078338 3867 33188
 InputFile    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.2.sdk/usr/include/module.modulemap 0 1509042405 23974 33188

@@ -86,27 +86,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		Ns84z1qvr2AbW5zGpRlEdQwyUK4=
-		</data>
-		<key>CDVBarcodeScanner.bundle/beep.caf</key>
-		<data>
-		n1wlp+nz0IyIf+ijW5tP91UI+x0=
-		</data>
-		<key>CDVBarcodeScanner.bundle/torch.png</key>
-		<data>
-		mYWzuFJCMsJIhwSNCTbYr/pw8d0=
-		</data>
-		<key>CDVBarcodeScanner.bundle/torch@2x.png</key>
-		<data>
-		CVe1Jr1OtHA5BjC37Jmll1AI9VA=
-		</data>
-		<key>CDVBarcodeScanner.bundle/torch@3x.png</key>
-		<data>
-		oh3qPwRm+DuBEovNszjn/0P9z1U=
+		4xSKogvY1n+lZ81jKRGC6uY6wA4=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		43ufb62rgWVKnmnqf9oUSDayGkY=
+		4x5Z0vcwNdOzBvU2H4VH5HKAb4w=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -114,7 +98,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		R9ohytw+Okr2C+Di5jpmEeR0WFI=
+		g5Ofha575DN7QU2EcUAViT6G1YI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -186,7 +170,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		xJ/8nKj7XCJNiLYFIZUJyOYj2Is=
+		/D0w7NRUAb/GeAd9l1gK+dfRYnk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -194,11 +178,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		Y1NidqO5ePicTLhPQpJ0TfUzdHc=
-		</data>
-		<key>scannerOverlay.nib</key>
-		<data>
-		rQx7fgj0cOQlhCEStQEWgF7C3CE=
+		O9YIk+w6RMm5cCBw8fv6b2/iU9E=
 		</data>
 		<key>www/assets/bootstrap/css/bootstrap.min.css</key>
 		<data>
@@ -338,7 +318,7 @@
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		PBcSHtRmHaO8DWDmiZio2jAnS/c=
+		oJvrNfDjC7exidBFRVVYpDm4akE=
 		</data>
 		<key>www/css/index.css</key>
 		<data>
@@ -350,7 +330,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		Xvem4fvl/dgUlHLXNFeM3AhRM1E=
+		zEeZk2ejY9xRwB0r5nNi+lUnPOA=
 		</data>
 		<key>www/index11.html</key>
 		<data>
@@ -359,30 +339,6 @@
 		<key>www/js/index.js</key>
 		<data>
 		VvGJtlwxe7yThwm8W/ULK665sIQ=
-		</data>
-		<key>www/photo.html</key>
-		<data>
-		9Fusaacx6iv3AN/sO6HrzMMmFJY=
-		</data>
-		<key>www/plugins/cordova-plugin-camera/www/Camera.js</key>
-		<data>
-		/Tl12sGFo/UZbPqnupaaV0Hg0vU=
-		</data>
-		<key>www/plugins/cordova-plugin-camera/www/CameraConstants.js</key>
-		<data>
-		v2sA7ZeHf4g2R4hremuTEjIZPUY=
-		</data>
-		<key>www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js</key>
-		<data>
-		DFjhGlevsoLz/p7Ls+/7LBfept8=
-		</data>
-		<key>www/plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js</key>
-		<data>
-		koRc23xo1lElHctG97l7ayo1asw=
-		</data>
-		<key>www/plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js</key>
-		<data>
-		haJXivDxwB2BCbPcMrODx5ojVqQ=
 		</data>
 		<key>www/produit.html</key>
 		<data>
@@ -619,66 +575,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ns84z1qvr2AbW5zGpRlEdQwyUK4=
+			4xSKogvY1n+lZ81jKRGC6uY6wA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			CIg/tlkP1qujRpQ0M7lRf6oMXTvjfBq4kb3xCj9XRWA=
-			</data>
-		</dict>
-		<key>CDVBarcodeScanner.bundle/beep.caf</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			n1wlp+nz0IyIf+ijW5tP91UI+x0=
-			</data>
-			<key>hash2</key>
-			<data>
-			NN7HB8+IcBwGLL11Xktd4ifwAZDSoNs8hKwROCcXamo=
-			</data>
-		</dict>
-		<key>CDVBarcodeScanner.bundle/torch.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mYWzuFJCMsJIhwSNCTbYr/pw8d0=
-			</data>
-			<key>hash2</key>
-			<data>
-			YBOo9aq0DkdCyPDUfovzqb28RDxhETooGasgESTO7h8=
-			</data>
-		</dict>
-		<key>CDVBarcodeScanner.bundle/torch@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CVe1Jr1OtHA5BjC37Jmll1AI9VA=
-			</data>
-			<key>hash2</key>
-			<data>
-			ZJjK832+YjToJzjslWS6RFl3QAwpQ4P6Zu/+nftv9Os=
-			</data>
-		</dict>
-		<key>CDVBarcodeScanner.bundle/torch@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oh3qPwRm+DuBEovNszjn/0P9z1U=
-			</data>
-			<key>hash2</key>
-			<data>
-			+atwPqV7gjdNiqOUmw7i2B/yfFZFh+BVUEXDVKRMVP8=
+			iCdLjv1mZPEYhgPflLOB9r2KkPWwQe7kyDW6VT+VCg8=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			43ufb62rgWVKnmnqf9oUSDayGkY=
+			4x5Z0vcwNdOzBvU2H4VH5HKAb4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			hirXRcuzPTItZUv8XWx9nrAZ9oGITcvgEUG7aEgvBLk=
+			rtQbX/roR+umB6IbvtTJGTnWXSnxm3vEg063jrVnU9E=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -696,11 +608,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R9ohytw+Okr2C+Di5jpmEeR0WFI=
+			g5Ofha575DN7QU2EcUAViT6G1YI=
 			</data>
 			<key>hash2</key>
 			<data>
-			yShobsrpDht+qiffR6W+WGZqfaqEuxjw914ciNI/nI8=
+			iNCF8WWrQjUWKpgmgcGl7ZEMEulLVVuIC+3kZociheg=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -883,33 +795,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xJ/8nKj7XCJNiLYFIZUJyOYj2Is=
+			/D0w7NRUAb/GeAd9l1gK+dfRYnk=
 			</data>
 			<key>hash2</key>
 			<data>
-			bRGU94BQ64PnHmsfLBkHKxLhfZkW72RX5g+tm9WtotI=
+			gDr2F5D8WtyPAFPTFvSVi2BcVSwx6oTIJ5P/C7MKQ64=
 			</data>
 		</dict>
 		<key>config.xml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y1NidqO5ePicTLhPQpJ0TfUzdHc=
+			O9YIk+w6RMm5cCBw8fv6b2/iU9E=
 			</data>
 			<key>hash2</key>
 			<data>
-			gOuq4+whdy0rG7BVPuwzMAISd/hjSrVwXNYUmDbbu34=
-			</data>
-		</dict>
-		<key>scannerOverlay.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rQx7fgj0cOQlhCEStQEWgF7C3CE=
-			</data>
-			<key>hash2</key>
-			<data>
-			eDF2EMzL08iKHQ6ptYTunr9KYgjli3QLGJmhIuhvPhQ=
+			3njHZyxs2sBgwd3sOXm6eXqwq4A9/3tZeDRu3stHxgQ=
 			</data>
 		</dict>
 		<key>www/assets/bootstrap/css/bootstrap.min.css</key>
@@ -1290,11 +1191,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PBcSHtRmHaO8DWDmiZio2jAnS/c=
+			oJvrNfDjC7exidBFRVVYpDm4akE=
 			</data>
 			<key>hash2</key>
 			<data>
-			VDnHYm96YSJq16eO946kOO97c/kykggUeFXBvB7w7vw=
+			k6baAz4bpYLmsYUf6NQA8+2skKyjBM8NwEPZpd79pcI=
 			</data>
 		</dict>
 		<key>www/css/index.css</key>
@@ -1323,11 +1224,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xvem4fvl/dgUlHLXNFeM3AhRM1E=
+			zEeZk2ejY9xRwB0r5nNi+lUnPOA=
 			</data>
 			<key>hash2</key>
 			<data>
-			34cZC/txYACUktKQjezZwqazjoHGpNV5nF5ypsjdqG4=
+			SpYDg1QlLyTxeynPF5SVnSSDDQESI/91r+DmW+hO/rQ=
 			</data>
 		</dict>
 		<key>www/index11.html</key>
@@ -1350,72 +1251,6 @@
 			<key>hash2</key>
 			<data>
 			shx4WO5iFkV9duAxUT81Zp+LfaixN2PdjQT2qsZzkQw=
-			</data>
-		</dict>
-		<key>www/photo.html</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9Fusaacx6iv3AN/sO6HrzMMmFJY=
-			</data>
-			<key>hash2</key>
-			<data>
-			Q5/Tyhut63SgJ9XWBCF5XdSSHJNEDeRWTSN6D8WEFwA=
-			</data>
-		</dict>
-		<key>www/plugins/cordova-plugin-camera/www/Camera.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/Tl12sGFo/UZbPqnupaaV0Hg0vU=
-			</data>
-			<key>hash2</key>
-			<data>
-			/DpMZq7FrbVwiAPbYjr190ea8NHGPLsnbwbi8KjR3Ws=
-			</data>
-		</dict>
-		<key>www/plugins/cordova-plugin-camera/www/CameraConstants.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			v2sA7ZeHf4g2R4hremuTEjIZPUY=
-			</data>
-			<key>hash2</key>
-			<data>
-			wkl+aO8lHNbXrlvHUVFvZ3XWmxJ5kE3QH9Cb1DKW2i4=
-			</data>
-		</dict>
-		<key>www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DFjhGlevsoLz/p7Ls+/7LBfept8=
-			</data>
-			<key>hash2</key>
-			<data>
-			rQlfvrBqSocgsPtkPqzytzsYymwS7jJHaaatC6XG0Fo=
-			</data>
-		</dict>
-		<key>www/plugins/cordova-plugin-camera/www/ios/CameraPopoverHandle.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			koRc23xo1lElHctG97l7ayo1asw=
-			</data>
-			<key>hash2</key>
-			<data>
-			9IOEZkfMOskH8iiS25t1CoLQOEpPsEj4j/xUN5HLHBM=
-			</data>
-		</dict>
-		<key>www/plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			haJXivDxwB2BCbPcMrODx5ojVqQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			ipGt28hFN1NR8Xi0CUelPM2biucyXPZ5M3iiW/KXQa4=
 			</data>
 		</dict>
 		<key>www/produit.html</key>
