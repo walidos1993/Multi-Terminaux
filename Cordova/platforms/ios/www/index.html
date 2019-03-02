@@ -3,7 +3,6 @@
 
 <head>
     <!-- import cordova-->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
@@ -19,6 +18,43 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src=" assets/js/angular.min.js"></script>
+
+    <script type="text/javascript">
+
+        function Scan(){
+            
+               cordova.plugins.barcodeScanner.scan(
+      function (result) {
+          alert("We got a barcode\n" +
+                "Result: " + result.text + "\n" +
+                "Format: " + result.format + "\n" +
+                "Cancelled: " + result.cancelled);
+      },
+      function (error) {
+          alert("Scanning failed: " + error);
+      },
+      {
+          preferFrontCamera : false, // iOS and Android
+          showFlipCameraButton : true, // iOS and Android
+          showTorchButton : true, // iOS and Android
+          torchOn: false, // Android, launch with the torch switched on (if available)
+          saveHistory: true, // Android, save scan history (default false)
+          prompt : "Place a barcode inside the scan area", // Android
+          resultDisplayDuration: 500, // Android, display scanned text for X ms. 0 suppresses it entirely, default 1500
+          formats : "QR_CODE,PDF_417,EAN", // default: all but PDF_417 and RSS_EXPANDED
+          orientation : "portrait", // Android only (portrait|landscape), default unset so it rotates with the device
+          disableAnimations : true, // iOS
+          disableSuccessBeep: false // iOS and Android
+      }
+   );
+        }
+
+    </script>
 </head>
 
 <body>
@@ -38,22 +74,24 @@
             </nav>
             <div class="container hero">
                 <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
-                    </div>
-                    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                    <div class="col-xl-9 mx-auto"><img src="img/logo.png" class="col-xl-10 offset-xl-1" /></div>
+                    <div class="col-md-10 col-lg-8 col-xl-10 mx-auto">
                         <form action="resultats.html" method="GET">
                             <div class="form-row">
-                                <div class="col-12 col-md-9 mb-2 mb-md-0"><input class="form-control form-control-lg" type="texte" placeholder="Saisir le nom du produit" name="product_name"></div>
-                                <div class="col-12 col-md-3"><button class="btn btn-light btn-lg action-button" type="submit">Rechercher</button></div>
+                                <div class="col-12 col-md-6 mb-2 mb-md-0"><input class="form-control form-control-lg" type="texte" placeholder="Saisir le nom du produit" name="product_name"></div>
+                                <div class="col-12 col-md-3"><button class="col-12 col-md-12 btn btn-light btn-lg action-button" type="submit">Rechercher</button></div>
+                                 <div class="col-12 col-md-3"><button onclick="Scan()" class="col-12 col-md-12 btn btn-light btn-lg action-button">Rechercher par code barre</button></div>
                             </div>
                         </form>
+                        
                     </div>
                 </div>
             </div>
         </div>
         <!-- End: Header -->
     </div>
+
+
     <!-- End: Header Blue -->
     <footer class="footer bg-light">
         <div class="container">
@@ -74,10 +112,7 @@
         </div>
     </footer>
 
-<script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
