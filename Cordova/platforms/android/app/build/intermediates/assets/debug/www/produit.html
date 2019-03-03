@@ -1,66 +1,87 @@
+    
+    <!-- Description du produit scanné ou trouvé -->
 
+
+    <!-- Start: Header -->
     <div class="header-blue">
         <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
             <div class="container"><a class="navbar-brand" href="index.html">Foogle</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse"
                     id="navcol-1">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
-                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
-                        </li>
-                    </ul>
-                    <form class="form-inline mr-auto" target="_self" action="resultats.html" method="GET">
-                        <div class="form-group"><label for="search-field"></label><input class="form-control search-field" type="texte" name="product_name" id="search-field"><button class="btn btn-primary fa fa-search" type="submit"></button></div>
-                    </form><span class="navbar-text"> </span><a class="btn btn-light action-button" role="button" href="#">Contactez-nous</a></div>
+                    
+                    <form class="form-inline mr-auto" target="_self" >
+                        <div class="form-group"><label for="search-field"></label>
+                            <input class="form-control search-field" type="texte"  placeholder="Saisir le nom du produit" ng-model="search" id="search-field">
+                            <a class="btn btn-primary fa fa-search" href="#!search/{{search}}/1"></a>
+                            
+                        </div>
+                        <a class="btn btn-primary fa fa-qrcode" href onclick="Scan()"></a>
+                    </form>
+
+                    <span class="navbar-text"> </span><a class="btn btn-light action-button" role="button" href="#">Contactez-nous</a></div>
             </div>
         </nav>
     </div>
     <!-- End: Header -->
     <!-- Start: Article Dual Column -->
-    <div class="article-dual-column">
-        <div class="container">
+    <div ng-controller="search">
+    <div class="article-dual-column" ng-controller="product">
+ 
+
+        <div class="container" >
             <div class="row">
                 <div class="col-md-10 offset-md-1">
                     <!-- Start: Intro -->
                     <div class="intro">
-                        <h1 class="text-center">Your Wonderful Article Title</h1>
-                        <!-- Start: Date and Author -->
+                        <h1 class="text-center">Produit: {{product.product.generic_name_fr}}</h1>
+                        <!-- Start: Date and Author 
                         <p class="text-center"><span class="by">by</span> <a href="#">Author Name</a><span class="date">Sept 8th, 2016 </span></p>
-                        <!-- End: Date and Author --><img class="img-fluid" src="assets/img/desk.jpg"></div>
+                         End: Date and Author -->
+                         </div>
                     <!-- End: Intro -->
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-10 col-lg-3 offset-md-1">
+                    <div class="img">
+                         <img class="img-fluid" src="{{product.product.selected_images.front.display.fr}}"></div>
                     <!-- Start: Toc -->
-                    <div class="toc">
-                        <p>Table of Contents</p>
-                        <ul>
-                            <li><a href="#">Aliquam In Arcu </a> </li>
-                            <li><a href="#">Ut vehicula rhoncus</a></li>
-                            <li><a href="#">Lorem Ipsum </a> </li>
-                            <li><a href="#">Dolor sit amet</a> </li>
-                        </ul>
-                    </div>
+                    
                     <!-- End: Toc -->
                 </div>
                 <div class="col-md-10 col-lg-7 offset-md-1 offset-lg-0">
                     <!-- Start: Text -->
                     <div class="text">
-                        <p>Sed lobortis mi. Suspendisse vel placerat ligula. <span style="text-decoration: underline;">Vivamus</span> ac sem lac. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in
-                            justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac lacus. <strong>Ut vehicula rhoncus</strong> elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit <em>pulvinar dict</em> vel in justo. Vestibulum
-                            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-                        <h2>Aliquam In Arcu </h2>
-                        <p>Suspendisse vel placerat ligula. Vivamus ac sem lac. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                            posuere cubilia Curae.</p>
-                        <figure class="figure"></figure>
+                        <h2> Catégories </h2>
+                        <p><ul>
+                            <li ng-repeat="Cat in product.product.categories.split(',')">{{Cat}}</li>  
+                        </ul> </p>
+                         <h2> Quantité </h2>
+                        <p>{{product.product.product_quantity}} g/ml</p>
+                         <h2> Magasins </h2>
+                       <p><ul>
+                            <li ng-repeat="stor in product.product.stores.split(',')">{{stor}}</li>  
+                        </ul> </p>
+                         <h2> Ingrédients </h2>
+                        <p><ul>
+                            <li ng-repeat="ing in product.product.ingredients">{{ing.text}}</li>  
+                        </ul> </p>
+                        <h2> Ingrédients (plus) </h2>
+                        <p><ul>
+                            <li > {{product.product.ingredients_text_with_allergens_fr}}</li>  
+                        </ul> </p>
+                        <h2> Ingrédients (en image) </h2>
+                        <p><ul>
+                            <li > <img class="img-fluid" src="{{product.product.selected_images.ingredients.display.fr}}"></li>  
+                        </ul> </p>
+                        
                     </div>
                     <!-- End: Text -->
                 </div>
             </div>
         </div>
     </div>
+</div>
     <!-- End: Article Dual Column -->
     <!-- Start: Footer Basic -->
     <div class="footer-basic">
@@ -78,7 +99,7 @@
             </ul>
             <!-- End: Links -->
             <!-- Start: Copyright -->
-            <p class="copyright">Company Name © 2017</p>
+            <p class="copyright">Foogle © 2019</p>
             <!-- End: Copyright -->
         </footer>
     </div>

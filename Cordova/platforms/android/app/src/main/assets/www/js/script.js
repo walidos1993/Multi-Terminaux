@@ -1,9 +1,15 @@
 var resultat="";
+/******************************************************
+*
+*      Récuperation du code à l'aide plugin barcodeScanner
+*
+*********************************************************/
         function Scan(){
           
                cordova.plugins.barcodeScanner.scan(
       function (result) {
         resultat=result.text;
+        document.location.href="#!product/"+resultat+"";
         /*  alert("We got a barcode\n" +
                 "Result: " + result.text + "\n" +
                 "Format: " + result.format + "\n" +
@@ -30,7 +36,7 @@ var resultat="";
         }
         var myApp = angular.module('myApp');
              
-myApp.controller('search', ['$scope',
+  myApp.controller('search', ['$scope',
     function($scope){
         $scope.code =resultat;
 

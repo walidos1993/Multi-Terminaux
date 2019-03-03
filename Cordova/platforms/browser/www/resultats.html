@@ -1,40 +1,48 @@
 
+
+    <!-- Résultats du recherche  -->
+
     <!-- Start: Header -->
     <div class="header-blue">
         <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
             <div class="container"><a class="navbar-brand" href="index.html">Foogle</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse"
                     id="navcol-1">
-                    <ul class="nav navbar-nav">
-                        <li class="dropdown nav-item"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
-                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
-                        </li>
-                    </ul>
-                    <form class="form-inline mr-auto" target="_self" action="resultats.html" method="GET">
-                        <div class="form-group"><label for="search-field"></label><input class="form-control search-field" type="texte" name="#!product_name" id="search-field"><button class="btn btn-primary fa fa-search" type="submit"></button></div>
-                    </form><span class="navbar-text"> </span><a class="btn btn-light action-button" role="button" href="#">Contactez-nous</a></div>
+                    
+                    <form class="form-inline mr-auto" target="_self" >
+                        <div class="form-group"><label for="search-field"></label>
+                            <input class="form-control search-field" type="texte"  placeholder="Saisir le nom du produit" ng-model="search" id="search-field">
+                            <a class="btn btn-primary fa fa-search" href="#!search/{{search}}/1"></a>
+                            
+                        </div>
+                        <a class="btn btn-primary fa fa-qrcode" href onclick="Scan()"></a>
+                    </form>
+
+                    <span class="navbar-text"> </span><a class="btn btn-light action-button" role="button" href="#">Contactez-nous</a></div>
             </div>
         </nav>
     </div>
     <!-- End: Header -->
     <!-- Start: Article List -->
-    <div class="article-list"  ng-controller="search">
-        <div class="container" ng-controller="searchword">
+    <div class="article-list"  >
+        <div class="container" ng-controller="data">
             <!-- Start: Intro -->
             <div class="intro" >
                 <h2 class="text-center">Resultats de la recherche: {{ search }} {{ code }}</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                
             </div>
             <!-- End: Intro -->
            
             <!-- Start: Articles -->
-            <div ng-controller="data" class="row articles">
-                <div class="col-sm-6 col-md-4 item" ng-repeat="x in data" >
+            <div  class="row articles">
+                <div class="col-sm-6 col-md-4 item" ng-repeat="x in data.products" >
                     <a href="#"><img  width="350" height="233" src="{{x.image_url}}" alt="Introuvable"></a>
                     <h3 class="name" ng-if="x.generic_name_fr!=''"> {{x.generic_name_fr}}</h3>
                     <p class="description" ><b ng-if="x.product_quantity!=''" >Qte:</b>: {{x.product_quantity}}<span ng-if="x.product_quantity!=''" >ml/g</span>    <br><b <b ng-if="x.categories!=''" >Catégorie:</b>  {{ x.categories | limitTo:100 }} ...</p>
-                    <a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a>
 
+                    <span ng-repeat="xcode in x.codes_tags">
+                    <a  href="#!product/{{xcode}}" ng-if="(!xcode.includes('x')&&!xcode.includes('code'))" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+                    </span>
                 </div>
                     </div>
                     <!-- End: Articles -->
@@ -65,7 +73,7 @@
                             </ul>
                             <!-- End: Links -->
                             <!-- Start: Copyright -->
-                            <p class="copyright">Company Name © 2017</p>
+                            <p class="copyright">Foogle © 2019</p>
                             <!-- End: Copyright -->
                         </footer>
                     </div>
