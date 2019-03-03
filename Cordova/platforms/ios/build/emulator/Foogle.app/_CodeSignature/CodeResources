@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		CZnVb48ifGGyj9FvC/TtpgU85FE=
+		y7Z7v200MC5ZRnxi6MvGLwyMruc=
 		</data>
 		<key>CDVBarcodeScanner.bundle/beep.caf</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		zM8l7qZRQfhQwXMzPfMw0CUaLX0=
+		F/d/hjFHlw46+g/9jgm1wOA2d0Y=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>scannerOverlay.nib</key>
 		<data>
-		pYfenUdrt/yfKsx9JF3coSknrUA=
+		hxV3sw1akaBXpyqz01rGmfR8Wxg=
 		</data>
 		<key>www/assets/bootstrap/css/bootstrap.min.css</key>
 		<data>
@@ -406,7 +406,7 @@
 		</data>
 		<key>www/resultats.html</key>
 		<data>
-		YmDMbQNVELGnbzVqHsLBgDHC3zA=
+		WGDBJofvHoW2FWKebPSrgL5eESw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -668,11 +668,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CZnVb48ifGGyj9FvC/TtpgU85FE=
+			y7Z7v200MC5ZRnxi6MvGLwyMruc=
 			</data>
 			<key>hash2</key>
 			<data>
-			XGjCMmIm1LaGRqgIilLK74z1yDaB70J3DIe7L/4LGUY=
+			yherLFBPtShYQzZhA429gcfBwFUTCJ7di6iAMfhRvO0=
 			</data>
 		</dict>
 		<key>CDVBarcodeScanner.bundle/beep.caf</key>
@@ -932,11 +932,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zM8l7qZRQfhQwXMzPfMw0CUaLX0=
+			F/d/hjFHlw46+g/9jgm1wOA2d0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			YIOvk0GAsU1uLm6yYr9NnSs4GdJaRvJWiuB9Nbil5oI=
+			nvxcX6QoRjC55AcaWIBzW+Hn2WaDnbpvEiJ77Tm6l+U=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -954,11 +954,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pYfenUdrt/yfKsx9JF3coSknrUA=
+			hxV3sw1akaBXpyqz01rGmfR8Wxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			8q3ZKZMxfI46xbvr2SiUIOK4qM2UgwCDc5nF4spzpP4=
+			LdIhgs+Ia0g3sgOxHPn7F5RS5oCxNY1Jq2J9XBucCMg=
 			</data>
 		</dict>
 		<key>www/assets/bootstrap/css/bootstrap.min.css</key>
@@ -1493,11 +1493,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YmDMbQNVELGnbzVqHsLBgDHC3zA=
+			WGDBJofvHoW2FWKebPSrgL5eESw=
 			</data>
 			<key>hash2</key>
 			<data>
-			L+g4T5ObMGXL9pA6sbS8H364u4WKmXB2FM6BnyMiync=
+			3/067MFpge5fn6e3p9CAGIukt5H4zTawqFO1WE3DLEs=
 			</data>
 		</dict>
 	</dict>

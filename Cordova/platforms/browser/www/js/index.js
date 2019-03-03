@@ -32,6 +32,9 @@ var app = {
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
     },
+    onResume: function(event) {
+        document.location.href="#!/";
+    },
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {

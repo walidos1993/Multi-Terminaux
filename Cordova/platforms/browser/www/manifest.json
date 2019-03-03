@@ -4,7 +4,7 @@
   "name": "Foogle",
   "short_name": "Foogle",
   "version": "io.cordova.hellocordova",
-  "description": "Une application qui aide à trouver un produit",
+  "description": "Une application qui aide à trouver un produit alimentaire",
   "author": "Foogle",
   "icons": [],
   "start_url": "index.html"
