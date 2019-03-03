@@ -21,72 +21,35 @@
     <div class="article-list"  ng-controller="search">
         <div class="container" ng-controller="searchword">
             <!-- Start: Intro -->
-            <div class="intro">
+            <div class="intro" >
                 <h2 class="text-center">Resultats de la recherche: {{ search }} {{ code }}</h2>
                 <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
             </div>
             <!-- End: Intro -->
-            <div ng-controller="data">
-            {{data}}
-        </div>
+           
             <!-- Start: Articles -->
-            <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-                <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-            <div
-                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-        <div
-            class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-            <h3 class="name">Article Title</h3>
-            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-    <div
-        class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-        <h3 class="name">Article Title</h3>
-        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a>
-        <a
-            href="#" class="action"></a>
-            </div>
-            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a>
-                <a
-                    href="#" class="action"></a>
-            </div>
-            <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/desk.jpg"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-            <div
-                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/building.jpg"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#" class="action"></a><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
-                <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/loft.jpg"></a>
-                    <h3 class="name">Article Title</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a></div>
+            <div ng-controller="data" class="row articles">
+                <div class="col-sm-6 col-md-4 item" ng-repeat="x in data" >
+                    <a href="#"><img  width="350" height="233" src="{{x.image_url}}" alt="Introuvable"></a>
+                    <h3 class="name" ng-if="x.generic_name_fr!=''"> {{x.generic_name_fr}}</h3>
+                    <p class="description" ><b ng-if="x.product_quantity!=''" >Qte:</b>: {{x.product_quantity}}<span ng-if="x.product_quantity!=''" >ml/g</span>    <br><b <b ng-if="x.categories!=''" >Catégorie:</b>  {{ x.categories | limitTo:100 }} ...</p>
+                    <a href="#!product" class="action"><i class="fa fa-arrow-circle-right"></i></a>
+
+                </div>
                     </div>
                     <!-- End: Articles -->
-                    <nav>
+                   <div ng-controller="page">
                         <ul class="pagination">
-                            <li class="page-item"><a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                            <li class="page-item"><a class="page-link" href="#">5</a></li>
-                            <li class="page-item"><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                            <li ng-repeat="page in pagination.pages track by $index" ng-class="{active: pagination.isCurrent(page)}" ng-click="pagination.setCurrent(page)">
+                        <a class="page-link" ng-bind="page"  href="#!search/{{search}}/{{page}}" ></a>
+                            </li>
                         </ul>
-                    </nav>
+                    </div>
                     </div>
                     </div>
                     <!-- End: Article List -->
                     <!-- Start: Footer Basic -->
+
                     <div class="footer-basic">
                         <footer>
                             <!-- Start: Social Icons -->

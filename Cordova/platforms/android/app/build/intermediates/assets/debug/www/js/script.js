@@ -33,5 +33,9 @@ var resultat="";
 myApp.controller('search', ['$scope',
     function($scope){
         $scope.code =resultat;
+
+        if($scope.code!=undefined){$scope.search="";}
+        
+
     }
 ]);

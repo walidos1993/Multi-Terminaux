@@ -24,12 +24,12 @@
         "source": "/Users/walidos195/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1469e225ab0d136a4419fe4a66c463c6/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/walidos195/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1469e225ab0d136a4419fe4a66c463c6/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
         "merged": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/build/intermediates/res/merged/debug/layout-ldpi_capture.xml.flat",
         "source": "/Users/walidos195/.gradle/caches/transforms-1/files-1.1/barcodescanner-release-2.1.5.aar/fb436e6877c8065fc3ba291f49c2b509/res/layout-ldpi/capture.xml"
+    },
+    {
+        "merged": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/walidos195/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1469e225ab0d136a4419fe4a66c463c6/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -84,12 +84,12 @@
         "source": "/Users/walidos195/Projectweb/Projets/Mt1/platforms/android/app/src/main/res/mipmap-xxxhdpi/icon.png"
     },
     {
-        "merged": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/Users/walidos195/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1469e225ab0d136a4419fe4a66c463c6/res/layout/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-ldpi_screen.png.flat",
         "source": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/src/main/res/drawable-port-ldpi/screen.png"
+    },
+    {
+        "merged": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
+        "source": "/Users/walidos195/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1469e225ab0d136a4419fe4a66c463c6/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/walidos195/Projectweb/Projets/multiterminaux/Cordova/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
