@@ -67,9 +67,7 @@
                             <li ng-repeat="ing in product.product.ingredients">{{ing.text}}</li>  
                         </ul> </p>
                         <h2> Ingrédients (plus) </h2>
-                        <p><ul>
-                            <li > {{product.product.ingredients_text_with_allergens_fr}}</li>  
-                        </ul> </p>
+                        <p> {{product.product.ingredients_text}} </p>
                         <h2> Ingrédients (en image) </h2>
                         <p><ul>
                             <li > <img class="img-fluid" src="{{product.product.selected_images.ingredients.display.fr}}"></li>  
