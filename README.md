@@ -8,16 +8,21 @@ Bien sûr sur navigateur sur machine ou mobile (responsive Bootstrap)
 Comme Base de données on a utilisé l'API fournit par OpenFoodFacts, donc pas besoin d'exporter les données (gigantesques) qui sont aussi fournit par cette dernière. Pour plus d'infos : https://world.openfoodfacts.org/who-we-are 
 
 La recherche d'un produit par code barre est possible d'où l'utilisation du plugin: https://github.com/phonegap/phonegap-plugin-barcodescanner
+# Sur navigateur
+Dossier : www
+Pour démarrer le site, il faut avoir un serveur http :  npm install http-server -g 
+Executer le serveur :npx http-server 
 
 # Installation Cordova et utilisation
-
-Pareil il faudra avoir node.js pour utiliser le gestionnaire des package npm .
+Dossier: cordova
+Il faut avoir node.js pour utiliser le gestionnaire des package npm .
 La commande pour installer Cordova:  npm install -g cordova 
 Pour tester sur android: https://cordova.apache.org/docs/en/latest/guide/platforms/android/index.html (JDK Android) => cordova run android
 pour ios: Xcode => cordova run ios
 pour tester sur navigateur => cordova run browser
 
 # Installation Electron 
+Dossier: electron
 prérequis npm:
 Commande pour installer : npm i -D electron-nightly
 1) Clonez le dépôt Quick Start
