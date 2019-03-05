@@ -38,7 +38,7 @@ $ npm install && npm start
   
   -  Compréhension de la base de données fournit par l'API
   - Installation du plugin pour le code barre (erreurs lors de la capture : problème corrigé)
-  - pouvoir tester sur mobile (on a pas pu le tester sur ios)  aucun problème avec android
+  - pouvoir tester sur mobile (on a pas pu le tester sur ios)  aucun problème avec android (l'apk: cordova/app_debug.apk)
   - comme le site est responsive, ca nous a faciliter la portabilité
   
 
