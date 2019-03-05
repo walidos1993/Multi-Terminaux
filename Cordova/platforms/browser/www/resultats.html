@@ -15,6 +15,7 @@
                             <a class="btn btn-primary fa fa-search" href="#!search/{{search}}/1"></a>
                             
                         </div>
+                        <a class="btn btn-primary fa fa-qrcode" href onclick="Scan()"></a>
                     </form>
 
                     <span class="navbar-text"> </span><a class="btn btn-light action-button" role="button" href="#">Contactez-nous</a></div>
@@ -35,11 +36,7 @@
             <!-- Start: Articles -->
             <div  class="row articles">
                 <div class="col-sm-6 col-md-4 item" ng-repeat="x in data.products" >
-                    
-                    
-
-                    <img  class="img-fluid" src="{{x.image_url}}" alt="Introuvable">
-
+                    <a href="#"><img  class="img-fluid" src="{{x.image_url}}" alt="Introuvable"></a>
                     <h3 class="name" ng-if="x.generic_name_fr!=''"> {{x.generic_name_fr}}</h3>
                     <p class="description" ><b ng-if="x.product_quantity!=''" >Qte:</b>: {{x.product_quantity}}<span ng-if="x.product_quantity!=''" >ml/g</span>    <br><b <b ng-if="x.categories!=''" >Catégorie:</b>  {{ x.categories | limitTo:100 }} ...</p>
 
