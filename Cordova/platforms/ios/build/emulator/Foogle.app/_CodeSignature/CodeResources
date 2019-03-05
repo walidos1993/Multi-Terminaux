@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		HWMPvd0+rJafv8zqtPJlbVHfYTk=
+		56/Jku1chFRnbMnZ5fLiOwJzTrY=
 		</data>
 		<key>CDVBarcodeScanner.bundle/beep.caf</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		1o6LidyiIGpk2JVg+2likZOuYhM=
+		V377oZErnIAtCCNe/5A0vaKSPdY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>scannerOverlay.nib</key>
 		<data>
-		Z0GiMSTQRHvCBCMQkYip6OE5tDM=
+		MtafUePLiHFJWsVC/pSI2lTumBE=
 		</data>
 		<key>www/assets/bootstrap/css/bootstrap.min.css</key>
 		<data>
@@ -668,11 +668,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HWMPvd0+rJafv8zqtPJlbVHfYTk=
+			56/Jku1chFRnbMnZ5fLiOwJzTrY=
 			</data>
 			<key>hash2</key>
 			<data>
-			EW7lRAuX/fJUUbmZM+a/8gzfHVCdfXGZEucN+L04++8=
+			oZ8jaQHc8fFqearo8/Hknbh3CNgL9AQmgYcBND4IoPA=
 			</data>
 		</dict>
 		<key>CDVBarcodeScanner.bundle/beep.caf</key>
@@ -932,11 +932,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1o6LidyiIGpk2JVg+2likZOuYhM=
+			V377oZErnIAtCCNe/5A0vaKSPdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			FD5laa6+uBWuhOHylRmIqsQzBCYyl/EGcU1Etw5qeIE=
+			1LwkUAeRAZGpF+jojX42/w1EPpuZ8GQgf+O4i9LzBfo=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -954,11 +954,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z0GiMSTQRHvCBCMQkYip6OE5tDM=
+			MtafUePLiHFJWsVC/pSI2lTumBE=
 			</data>
 			<key>hash2</key>
 			<data>
-			rf4ij+pEogSWUiFOn/77pZ3F/vjJ0OUkBvh7X+IkRso=
+			J0uuUbGEcfsPlV4N+pxWc6IA1HVJpGbrxQgJEGnEjP0=
 			</data>
 		</dict>
 		<key>www/assets/bootstrap/css/bootstrap.min.css</key>
